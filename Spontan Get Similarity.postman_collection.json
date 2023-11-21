@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "33b58bca-8d71-4471-b69a-13482f9946c3",
+		"name": "Spontan Get Similarity",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24245910"
+	},
+	"item": [
+		{
+			"name": "get Similar Product",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"pos\": \"gandasil B 500g\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/getSimilarProduct",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"getSimilarProduct"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
