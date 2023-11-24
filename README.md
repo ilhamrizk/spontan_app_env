@@ -1,2 +1,7 @@
 ## Spontan App
-Spontan microservices to get similar product 
+Spontan microservices consist of 3 end-points
+- main
+- get similar product
+- get list similar
+- insert similar
+

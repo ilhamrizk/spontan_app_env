@@ -16,7 +16,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"pos\": \"gandasil B 500g\"\r\n}",
+					"raw": "{\r\n    \"pos\": \"{{Product Name}}\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -32,6 +32,259 @@
 					"port": "5000",
 					"path": [
 						"getSimilarProduct"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "ZA plus Petro",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"pos\": \"petro za plus\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/getSimilarProduct",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"getSimilarProduct"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/3.0.1 Python/3.11.6"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 22 Nov 2023 16:15:16 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "571"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "{\n  \"result\": {\n    \"best_match\": {\n      \"Brand\": \"PIHC\",\n      \"Formula\": NaN,\n      \"Product SKU\": \"ZA Plus Petro\",\n      \"Type\": \"ZA\",\n      \"description\": \"ZA Plus Petro PIHC ZA\",\n      \"description_clean\": [\n        \"plus\",\n        \"petro\",\n        \"pihc\",\n        \"za\"\n      ],\n      \"description_nonumber\": [\n        \"plus\",\n        \"petro\",\n        \"pihc\",\n        \"za\"\n      ],\n      \"index\": 7,\n      \"new_sku\": 0.0\n    },\n    \"classification\": \"match\",\n    \"product\": \"petro za plus\",\n    \"similarity\": 0.75,\n    \"time\": \"Wed, 22 Nov 2023 23:15:16 GMT\"\n  }\n}\n"
+				},
+				{
+					"name": "ZA plus Petro Write",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"pos\": \"petro za plus\",\r\n    \"write\": \"True\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/getSimilarProduct",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"getSimilarProduct"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/3.0.1 Python/3.11.6"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 22 Nov 2023 16:15:16 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "571"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "{\n  \"result\": {\n    \"best_match\": {\n      \"Brand\": \"PIHC\",\n      \"Formula\": NaN,\n      \"Product SKU\": \"ZA Plus Petro\",\n      \"Type\": \"ZA\",\n      \"description\": \"ZA Plus Petro PIHC ZA\",\n      \"description_clean\": [\n        \"plus\",\n        \"petro\",\n        \"pihc\",\n        \"za\"\n      ],\n      \"description_nonumber\": [\n        \"plus\",\n        \"petro\",\n        \"pihc\",\n        \"za\"\n      ],\n      \"index\": 7,\n      \"new_sku\": 0.0\n    },\n    \"classification\": \"match\",\n    \"product\": \"petro za plus\",\n    \"similarity\": 0.75,\n    \"time\": \"Wed, 22 Nov 2023 23:15:16 GMT\"\n  }\n}\n"
+				},
+				{
+					"name": "pestisida",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"pos\": \"marshal wp\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/getSimilarProduct",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"getSimilarProduct"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/3.0.1 Python/3.11.6"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 22 Nov 2023 15:57:05 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "662"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "{\n  \"result\": {\n    \"best_match\": {\n      \"Brand\": \"Tanpa Merek \",\n      \"Formula\": NaN,\n      \"Product SKU\": \"Tanpa Merek TRICHOTEC WP\",\n      \"Type\": \"Pestisida Biologi\",\n      \"description\": \"Tanpa Merek TRICHOTEC WP Tanpa Merek  Pestisida Biologi\",\n      \"description_clean\": [\n        \"wp\",\n        \"trichotec\",\n        \"pestisida\",\n        \"biologi\"\n      ],\n      \"description_nonumber\": [\n        \"wp\",\n        \"trichotec\",\n        \"pestisida\",\n        \"biologi\"\n      ],\n      \"index\": 4118,\n      \"new_sku\": 1.0\n    },\n    \"classification\": \"match\",\n    \"product\": \"marshal wp\",\n    \"similarity\": 0.2,\n    \"time\": \"Wed, 22 Nov 2023 22:57:05 GMT\"\n  }\n}\n"
+				}
+			]
+		},
+		{
+			"name": "get List Similar",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"pos\": \"petro za plus\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/getListSimilar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"getListSimilar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "insert Similar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"index\": 7\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/insertSimilar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"insertSimilar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "main",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"pos\": \"petro za plus\",\r\n    \"write\": \"True\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						""
 					]
 				}
 			},
