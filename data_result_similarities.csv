@@ -1,0 +1,16 @@
+id,product,match_index,match_product,match_brand,match_type,match_category,match_formula,match_new_sku,match_description,similarity,class,class_desc,time
+0,Pupuk Urea N 46%,3953.0,Tanpa Merek PUPUK UREA,Tanpa Merek ,Urea,pupuk,,1.0,Tanpa Merek PUPUK UREA Tanpa Merek  Urea,0.3333333333333333,1,match,2023-07-17 13:02:16
+1,Pupuk Amonium Sulfat ZA,2648.0,Taiko ZA (amonium Sulfat) (Tepung),Taiko,ZA (amonium Sulfat) (Tepung),pupuk,,1.0,Taiko ZA (amonium Sulfat) (Tepung) Taiko ZA (amonium Sulfat) (Tepung),0.6,1,match,2023-09-19 15:25:58
+2,jerigen kulkas,,,,,,,,,0,0,not match,2023-11-24 22:33:21.775962
+3,jerigen kulkas,,,,,,,,,0,0,not match,2023-11-24 22:33:23.010849
+4,XA UREA Perrto,3953,Tanpa Merek PUPUK UREA,Tanpa Merek ,Urea,pupuk,,1.0,Tanpa Merek PUPUK UREA Tanpa Merek  Urea,0.3333333333333333,1,match,2023-11-24 22:33:34.929696
+5,XA UREA Perrto,3953,Tanpa Merek PUPUK UREA,Tanpa Merek ,Urea,pupuk,,1.0,Tanpa Merek PUPUK UREA Tanpa Merek  Urea,0.3333333333333333,1,match,2023-11-24 22:34:59.982175
+6,XA UREA Perrto,3953,Tanpa Merek PUPUK UREA,Tanpa Merek ,Urea,pupuk,,1.0,Tanpa Merek PUPUK UREA Tanpa Merek  Urea,0.3333333333333333,1,match,2023-11-24 22:35:17.383825
+7,ZA Urea,773,Pertama ZA (Butiran),Pertama,ZA (Butiran),pupuk,,1.0,Pertama ZA (Butiran) Pertama ZA (Butiran),0.5,1,match,2023-11-24 22:35:26.136122
+8,petro za plus,7,ZA Plus Petro,PIHC,ZA,pupuk,,0.0,ZA Plus Petro PIHC ZA,0.75,1,match,2023-11-24 22:48:21.200532
+9,petro za plus,7,ZA Plus Petro,PIHC,ZA,pupuk,,0.0,ZA Plus Petro PIHC ZA,0.75,1,match,2023-11-24 22:48:23.924851
+10,petro za plus,7,ZA Plus Petro,PIHC,ZA,pupuk,,0.0,ZA Plus Petro PIHC ZA,0.75,1,match,2023-11-24 22:48:24.982293
+11,petro za plus,7,ZA Plus Petro,PIHC,ZA,pupuk,,0.0,ZA Plus Petro PIHC ZA,0.75,1,match,2023-11-24 22:52:37.216251
+12,7,,,,,,,,,0,0,not match,2023-11-25 00:16:12.585740
+13,ZA Plus Petro,7,ZA Plus Petro,PIHC,ZA,pupuk,,0.0,ZA Plus Petro PIHC ZA,1,1,match,2023-11-25 00:18:52.072692
+14,PETRO ZA (Butiran),297,PETRO ZA (Butiran),PETRO,ZA (Butiran),pupuk,,1.0,PETRO ZA (Butiran) PETRO ZA (Butiran),1,1,match,2023-11-25 00:19:42.591207
